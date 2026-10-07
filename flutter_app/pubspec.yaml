@@ -1,0 +1,25 @@
+name: cipherlink
+description: "CipherLink - End-to-End Encrypted Zero-Knowledge Cryptographic Messenger"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  web_socket_channel: ^3.0.1
+  cryptography: ^2.7.0
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^5.2.3
+  flutter_secure_storage: ^9.2.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
